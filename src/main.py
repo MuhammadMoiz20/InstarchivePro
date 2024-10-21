@@ -1,4 +1,27 @@
+"""
+Instagram Profile Archiver
 
+This script allows users to download and archive posts from any public Instagram profile. 
+The archive is saved as a professionally formatted PDF, including images, captions, likes, and other metadata.
+
+Features:
+- Supports both Instagram usernames and profile URLs.
+- Generates a cover page and detailed information about each post.
+- Creates image collages for posts with multiple images.
+
+Dependencies:
+- Instaloader: For downloading posts and profile data.
+- FPDF2: For generating PDF reports.
+- Pillow: For image processing and collage creation.
+
+Usage:
+- Run the script and provide the username or URL when prompted.
+- Handles invalid usernames, network issues, and other errors gracefully.
+
+Author: Muhammad Moiz
+GitHub: https://github.com/MuhammadMoiz20/InstarchivePro/blob/main/src/main.py
+License: MIT
+"""
 
 
 import instaloader
